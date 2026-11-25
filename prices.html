@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Цены на пакетный ремонт — 20, 30 и 40 тысяч ₽/м² | Интеррия. Пакетные решения (черновик)</title>
+<meta name="description" content="Стоимость за 1 м²: работы 20 000 ₽, работы + черновые материалы 30 000 ₽, работы + все материалы 40 000 ₽. Калькулятор и состав пакетов.">
+<link rel="icon" href="assets/img/logo-sign.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="draft-bar"><b>Черновик (демо-версия).</b> Сайт закрыт от поисковиков. Заявки пока не отправляются. Ссылка временная — только для просмотра.</div>
+<header class="header" id="top">
+  <div class="container header__in">
+    <a href="index.html" class="logo" aria-label="Интеррия. Пакетные решения">
+      <img src="assets/img/logo-sign.svg" alt="" width="36" height="20">
+      <span class="logo__text"><span class="logo__name">интеррия</span><span class="logo__sub">Пакетные решения</span></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Главная</a>
+      <a href="prices.html" class="is-active">Цены</a>
+      <a href="how.html">Как работаем</a>
+      <a href="portfolio.html">Портфолио</a>
+      <a href="partners.html">Партнёры</a>
+      <a href="faq.html">Вопросы</a>
+      <a href="contacts.html">Контакты</a>
+      <a href="prices.html#calc" class="btn btn--accent btn--sm nav__cta-mobile">Рассчитать</a>
+    </nav>
+    <a href="prices.html#calc" class="btn btn--accent btn--sm header__cta">Рассчитать</a>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+<!-- PRICES -->
+<section class="section section--alt" id="prices">
+  <div class="container">
+    <div class="head-row">
+      <div>
+        <div class="eyebrow">Цены</div>
+        <h2 class="h2">Стоимость за 1 м²</h2>
+      </div>
+      <a class="btn btn--outline btn--sm" href="assets/docs/interriya-paketnye-resheniya.pdf" download="interriya-paketnye-resheniya.pdf">Скачать каталог</a>
+    </div>
+    <div class="packs">
+      <article class="pack">
+        <h3 class="pack__name">Работы</h3>
+        <div class="pack__price">20 000 ₽ <small>/ м²</small></div>
+        <ul class="pack__list">
+          <li class="yes">Страховка</li>
+          <li class="yes">Технический проект</li>
+          <li class="yes">Все работы под ключ</li>
+          <li class="no">Черновые материалы</li>
+          <li class="no">Чистовые материалы</li>
+          <li class="no">Потолки, двери, клининг и вывоз мусора</li>
+          <li class="no">Сантехника (на выбор из списка)</li>
+        </ul>
+        <a href="contacts.html?pack=20000#contacts" class="btn btn--outline pack__btn" data-pack="20000">Обсудить детали</a>
+      </article>
+      <article class="pack">
+        <h3 class="pack__name">Работы + черновые материалы</h3>
+        <div class="pack__price">30 000 ₽ <small>/ м²</small></div>
+        <ul class="pack__list">
+          <li class="yes">Страховка</li>
+          <li class="yes">Технический проект</li>
+          <li class="yes">Все работы под ключ</li>
+          <li class="yes">Черновые материалы</li>
+          <li class="no">Чистовые материалы</li>
+          <li class="no">Потолки, двери, клининг и вывоз мусора</li>
+          <li class="no">Сантехника (на выбор из списка)</li>
+        </ul>
+        <a href="contacts.html?pack=30000#contacts" class="btn btn--outline pack__btn" data-pack="30000">Обсудить детали</a>
+      </article>
+      <article class="pack pack--top">
+        <h3 class="pack__name">Работы + все материалы</h3>
+        <div class="pack__price">40 000 ₽ <small>/ м²</small></div>
+        <ul class="pack__list">
+          <li class="yes">Страховка</li>
+          <li class="yes">Дизайн-проект</li>
+          <li class="yes">Все работы под ключ</li>
+          <li class="yes">Черновые материалы</li>
+          <li class="yes">Чистовые материалы</li>
+          <li class="yes">Потолки, двери, клининг и вывоз мусора</li>
+          <li class="yes">Сантехника (на выбор из списка)</li>
+        </ul>
+        <a href="contacts.html?pack=40000#contacts" class="btn btn--accent pack__btn" data-pack="40000">Обсудить детали</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CALC -->
+<section class="section" id="calc">
+  <div class="container">
+    <div class="eyebrow">Калькулятор</div>
+    <h2 class="h2">Сколько будет стоить ваша квартира</h2>
+    <p class="sub">Передвиньте ползунок и выберите пакет — увидите ориентир сразу.</p>
+    <div class="calc">
+      <div class="calc__left">
+        <label class="label" for="area">Площадь квартиры</label>
+        <div class="calc__area">
+          <input type="range" id="area" min="15" max="200" step="1" value="50">
+          <div class="calc__num"><input type="number" id="areaNum" min="15" max="200" value="50" inputmode="numeric" aria-label="Площадь, м²"><span>м²</span></div>
+        </div>
+        <div class="label">Пакет</div>
+        <div class="calc__packs" role="radiogroup">
+          <button type="button" class="cpack" data-price="20000" data-name="Работы" role="radio" aria-checked="false"><b>20 000 ₽</b><span>Работы</span></button>
+          <button type="button" class="cpack is-active" data-price="30000" data-name="Работы + черновые материалы" role="radio" aria-checked="true"><b>30 000 ₽</b><span>Работы + черновые материалы</span></button>
+          <button type="button" class="cpack" data-price="40000" data-name="Работы + все материалы" role="radio" aria-checked="false"><b>40 000 ₽</b><span>Работы + все материалы</span></button>
+        </div>
+      </div>
+      <div class="calc__right">
+        <div class="eyebrow eyebrow--light" id="calcLabel">Ориентир по пакету «Работы + черновые материалы»</div>
+        <div class="calc__sum" id="calcSum">1 500 000 ₽</div>
+        <p class="calc__hint">Площадь × цена пакета за м². Без мебели и техники. Точную смету специалист составит бесплатно после замера.</p>
+        <a href="contacts.html?pack=30000&amp;area=50#contacts" class="btn btn--accent" id="calcBtn">Оставить заявку</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UTP -->
+<section class="section section--alt section--tight-top" id="utp">
+  <div class="container">
+    <div class="utp">
+      <div class="utp__card">
+        <div class="utp__ico"><svg viewBox="0 0 24 24"><path d="M3 17 17 3l4 4L7 21H3v-4Z M14 6l4 4 M10 10l2 2 M7 13l2 2"/></svg></div>
+        <h3>Замер и расчёт — бесплатно</h3>
+        <p>Бесплатный выезд специалиста на замер и сбор ваших запросов. Расчёт — тоже бесплатно.</p>
+      </div>
+      <div class="utp__card">
+        <div class="utp__ico"><svg viewBox="0 0 24 24"><path d="M4 20V4h11l5 5v11H4Z M15 4v5h5 M8 13h8 M8 17h5"/></svg></div>
+        <h3>Проект включён в стоимость</h3>
+        <p>Технический или дизайн-проект — в зависимости от пакета.</p>
+      </div>
+      <div class="utp__card">
+        <div class="utp__ico"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6l-8-3Z M8.5 12l2.5 2.5 4.5-5"/></svg></div>
+        <h3>Страховка квартиры на 1 год</h3>
+        <p>Бесплатная страховка квартиры на 1 год с начала ремонта на общую сумму 3&nbsp;млн&nbsp;₽.</p>
+      </div>
+    </div>
+    <p class="utp-note">Оплата этапами — по мере выполнения работ.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__in">
+    <div class="footer__col footer__about">
+      <a href="index.html" class="logo logo--light">
+        <img src="assets/img/logo-sign.svg" alt="" width="36" height="20">
+        <span class="logo__text"><span class="logo__name">интеррия</span><span class="logo__sub">Пакетные решения</span></span>
+      </a>
+      <p>Ремонт под ключ по фиксированной цене за квадратный метр. Все учитывается на этапе формирования проекта, и стоимость не меняется.</p>
+    </div>
+    <div class="footer__col">
+      <div class="footer__h">Разделы</div>
+      <a href="index.html">Главная</a><a href="prices.html">Цены</a><a href="how.html">Как работаем</a><a href="portfolio.html">Портфолио</a><a href="partners.html">Партнёры</a><a href="faq.html">Вопросы</a><a href="brands.html">Материалы</a>
+    </div>
+    <div class="footer__col">
+      <div class="footer__h">Контакты</div>
+      <a href="tel:+79990516777">+7 999 051-67-77</a>
+      <a href="mailto:spb@interriya.ru">spb@interriya.ru</a>
+      <span>Санкт-Петербург, ул. Рижская, д. 5, корп. 1, оф. 315 (БЦ «Рижский»)</span>
+      <a href="privacy.html">Политика обработки данных</a>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© Интеррия · ООО «Интеррия-СПБ», г. Санкт-Петербург, ул. Рижская, д. 5, корп. 1, оф. 315 (БЦ «Рижский») · ИНН 7811778267 · ОГРН 1227800100516</span>
+    <span>Информация на сайте не является публичной офертой</span>
+  </div>
+</footer>
+
+<script src="assets/js/form-config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

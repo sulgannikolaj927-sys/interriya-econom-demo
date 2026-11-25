@@ -1,0 +1,7 @@
+config.php
+.env
+.env.*
+*.local.php
+secrets/
+data/leads.log
+leads.log

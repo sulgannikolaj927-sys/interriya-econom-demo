@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Контакты и заявка | Интеррия. Пакетные решения (черновик)</title>
+<meta name="description" content="Давайте свяжемся и обсудим :) Заявка на расчёт пакетного ремонта в Санкт-Петербурге. +7 999 051-67-77, spb@interriya.ru.">
+<link rel="icon" href="assets/img/logo-sign.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="draft-bar"><b>Черновик (демо-версия).</b> Сайт закрыт от поисковиков. Заявки пока не отправляются. Ссылка временная — только для просмотра.</div>
+<header class="header" id="top">
+  <div class="container header__in">
+    <a href="index.html" class="logo" aria-label="Интеррия. Пакетные решения">
+      <img src="assets/img/logo-sign.svg" alt="" width="36" height="20">
+      <span class="logo__text"><span class="logo__name">интеррия</span><span class="logo__sub">Пакетные решения</span></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Главная</a>
+      <a href="prices.html">Цены</a>
+      <a href="how.html">Как работаем</a>
+      <a href="portfolio.html">Портфолио</a>
+      <a href="partners.html">Партнёры</a>
+      <a href="faq.html">Вопросы</a>
+      <a href="contacts.html" class="is-active">Контакты</a>
+      <a href="prices.html#calc" class="btn btn--accent btn--sm nav__cta-mobile">Рассчитать</a>
+    </nav>
+    <a href="prices.html#calc" class="btn btn--accent btn--sm header__cta">Рассчитать</a>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+<!-- CONTACT FORM -->
+<section class="section" id="contacts">
+  <div class="container">
+    <div class="contacts-info">
+      <div class="eyebrow">Контакты</div>
+      <p class="contacts-info__addr">Санкт-Петербург, ул. Рижская, д. 5, корп. 1, оф. 315 (БЦ «Рижский»)</p>
+      <p class="contacts-info__links"><a href="tel:+79990516777">+7 999 051-67-77</a><a href="mailto:spb@interriya.ru">spb@interriya.ru</a></p>
+    </div>
+    <div class="lead">
+      <div class="lead__img">
+        <div class="lead__txt">
+          <div class="eyebrow eyebrow--light">Заявка</div>
+          <h2 class="h2 h2--light">Давайте свяжемся и обсудим :)</h2>
+        </div>
+      </div>
+            <form class="form lead__form js-lead-form" data-form="lead" novalidate>
+        <div class="hp-field" aria-hidden="true">
+          <label>Не заполняйте это поле <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+        </div>
+        <input type="hidden" name="started_at" value="">
+        <div class="form__fields">
+        <div class="grid2">
+          <label class="field"><span class="label">Имя</span><input type="text" name="name" placeholder="Как к вам обращаться" required autocomplete="name"></label>
+          <label class="field"><span class="label">Телефон</span><input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required inputmode="tel" autocomplete="tel"></label>
+          <label class="field"><span class="label">Объект</span>
+            <select name="object"><option>Новостройка</option><option>Вторичное жильё</option></select></label>
+          <label class="field"><span class="label">Площадь, м²</span><input type="number" name="area" id="leadArea" value="50" min="10" max="500" inputmode="numeric"></label>
+        </div>
+        <label class="field"><span class="label">Пакет</span>
+          <select name="pack" id="leadPack">
+            <option value="20000">Работы — 20 000 ₽/м²</option>
+            <option value="30000" selected>Работы + черновые — 30 000 ₽/м²</option>
+            <option value="40000">Работы + все материалы — 40 000 ₽/м²</option>
+          </select></label>
+        <label class="field"><span class="label">ЖК или адрес <i>(необязательно)</i></span><input type="text" name="address" placeholder="Например, ЖК «Куинджи»" autocomplete="street-address"></label>
+        <label class="field"><span class="label">Комментарий <i>(необязательно)</i></span><textarea name="comment" rows="3" placeholder="Пожелания по срокам, отделке, заезду"></textarea></label>
+        <label class="check"><input type="checkbox" name="consent" required> <span>Я соглашаюсь на обработку персональных данных и передачу моих контактов в «Интеррию» для расчёта стоимости и связи со мной. <a href="privacy.html">Политика обработки данных</a></span></label>
+        </div>
+        <button class="btn btn--accent btn--wide" type="submit">Отправить заявку</button>
+        <div class="form__status" hidden></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__in">
+    <div class="footer__col footer__about">
+      <a href="index.html" class="logo logo--light">
+        <img src="assets/img/logo-sign.svg" alt="" width="36" height="20">
+        <span class="logo__text"><span class="logo__name">интеррия</span><span class="logo__sub">Пакетные решения</span></span>
+      </a>
+      <p>Ремонт под ключ по фиксированной цене за квадратный метр. Все учитывается на этапе формирования проекта, и стоимость не меняется.</p>
+    </div>
+    <div class="footer__col">
+      <div class="footer__h">Разделы</div>
+      <a href="index.html">Главная</a><a href="prices.html">Цены</a><a href="how.html">Как работаем</a><a href="portfolio.html">Портфолио</a><a href="partners.html">Партнёры</a><a href="faq.html">Вопросы</a><a href="brands.html">Материалы</a>
+    </div>
+    <div class="footer__col">
+      <div class="footer__h">Контакты</div>
+      <a href="tel:+79990516777">+7 999 051-67-77</a>
+      <a href="mailto:spb@interriya.ru">spb@interriya.ru</a>
+      <span>Санкт-Петербург, ул. Рижская, д. 5, корп. 1, оф. 315 (БЦ «Рижский»)</span>
+      <a href="privacy.html">Политика обработки данных</a>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© Интеррия · ООО «Интеррия-СПБ», г. Санкт-Петербург, ул. Рижская, д. 5, корп. 1, оф. 315 (БЦ «Рижский») · ИНН 7811778267 · ОГРН 1227800100516</span>
+    <span>Информация на сайте не является публичной офертой</span>
+  </div>
+</footer>
+
+<script src="assets/js/form-config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
